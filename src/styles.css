@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  max-width: 600px;
+  padding: 0rem;
+  margin: auto;
+  text-align: center;
+}
+
+.navigation {
+  margin: auto;
+}
+
+.body-container {
+  max-width: 600px;
+  padding: 0rem;
+  margin: 1rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#txt-input {
+  width: 40%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+button {
+  width: 40%;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+#output {
+  margin: 1rem auto;
+  font-weight: bold;
+}
